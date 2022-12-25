@@ -1,9 +1,9 @@
 #!/bin/bash
 #Script Variables
 HOST='209.159.152.66';
-USER='crypticv_stunnel';
+USER='crypticv_tanvirvip';
 PASS='@@@@F1r3n3t';
-DBNAME='crypticv_stunnel';
+DBNAME='crypticv_tanvirvip';
 PORT_TCP='1194';
 PORT_UDP='53';
 timedatectl set-timezone Asia/Riyadh
@@ -163,11 +163,6 @@ exit 0' >> /etc/rc.local
 
 start_service () {
 clear
-echo 'Starting..'
-echo '++++++++++++++++++++++++++++++++++'
-echo '*       SERVER is ready!    *'
-echo '+++++++++++************+++++++++++'
-echo -e "[IP] : $server_ip\n[Proxy Squid 1] : 8080\n[Proxy Squid 2] : 3128\n"
 history -c;
 rm ~/.installer
 echo 'Server will secure this server and reboot after 20 seconds'
